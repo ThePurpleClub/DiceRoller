@@ -74,7 +74,6 @@ fun DiceWithButtonAndImage(modifier: Modifier = Modifier
                 onClick = { result = (1..6).random() }) {
                 Text(stringResource(id = R.string.roll), fontSize = 24.sp)
             }
-
         }
 }
 
